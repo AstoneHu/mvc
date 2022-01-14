@@ -26,7 +26,7 @@ public class TestController {
         String person;
         String optValues = request.getParameter("opt_values");
         if ("1".equals(optValues)){
-            person = "姓名：张三1，年龄：24，性别：男，出生地：广西南宁";
+            person = "姓名：张三，年龄：24，性别：男，出生地：广西南宁";
             mapJson.put("person",person);
         }
         if ("2".equals(optValues)){
